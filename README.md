@@ -38,13 +38,11 @@ conda list
 
 ## Usage
 1. **Run Ollama application**
-2. **Navigate to project directory**
-3. **Run the Streamlit application:** Start the Streamlit app to interactively summarize papers:
+2. **Run the Streamlit application:** Start the Streamlit app to interactively summarize papers:
 ```
-conda activate pdf_summarizer
 streamlit run app.py
 ```
-4. **Summarize a paper:**
+3. **Summarize a paper:**
     * Enter the URL of a research paper in PDF format
     * The app will extract the text and generate a summary
 
